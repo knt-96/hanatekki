@@ -1,0 +1,577 @@
+/* ヘッダー */
+#wrap{
+  display: flex;
+  line-height: 0;
+}
+#side_box{
+  width: 30%;
+  text-align: center;
+  position: relative;
+}
+body{
+  margin: 0;
+}
+h1 img{
+  width: 50%;
+}
+.top_image{
+  width: 90%;
+  position: relative;
+}
+.top_image img{
+  width: 100%;
+}
+.top_image p{
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  text-align: right;
+  color: white;
+  font-family: "ヒラギノ明朝 ProN";
+  letter-spacing: .20em;
+  line-height: 300%;
+  font-size: 25px;
+}
+.link_online{
+  margin-top: 15%;
+  color: #353535;
+  font-size: 15px;
+  line-height: 0.2;
+  font-family: "ヒラギノ明朝 ProN";
+
+}
+.link_online a{
+  text-decoration: none;
+}
+.online_box{
+  letter-spacing: .15em;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  padding: 1em 2em;
+  text-decoration: none;
+  color: #FFF;
+  background: #5b5b5b;
+  border-radius: 4px;
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+}
+.side_address{
+  color: #353535;
+  font-size: 10px;
+  line-height: 250%;
+  font-family: "ヒラギノ明朝 ProN";
+  letter-spacing: .05em;
+}
+.side_address a{
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+  margin-top: 15%;
+}
+.scroll a {
+  position: absolute;
+  left: 50%;
+  margin-top: 10%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-decoration: none;
+}
+.scroll a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #5b5b5b;
+  border-bottom: 1px solid #5b5b5b;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+.anchor {
+  display: block;
+  padding-top: 15%;
+}
+/* メニュー */
+.navi_top{
+  color: #fff;
+  text-align: center;
+}
+.navi_top li{
+  display: inline-block;
+}
+.list li a{
+  color: white;
+  font-family: "ヒラギノ明朝 ProN";
+  letter-spacing: .15em;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  background-color: #5b5b5b;
+  background-image: url(img/mizutama.png);
+}
+li {
+	border-right: 1px solid #bbbbbb;
+}
+li:last-child {
+	border-right: none;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 45px 60px;
+	text-decoration: none;
+}
+
+/* アバウト */
+.clearfix::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+#about{
+  background: url("img/illust1.png");
+  background-position: 90% 100%;
+  background-repeat: no-repeat;
+  background-size: 15%;
+  display: flex;
+}
+.title{
+  width: 15%;
+  padding-left: 20%;
+  margin-top: 2%;
+  text-align: center;
+}
+.title img{
+  width: 100%;
+}
+.title p{
+  color: #353535;
+  font-size: 18px;
+  font-family: "ヒラギノ明朝 ProN";
+  letter-spacing: .15em;
+  line-height: 2.5;
+}
+.content{
+  padding-left: 10%;
+}
+.content p{
+  color: #353535;
+  font-size: 15px;
+  font-family: "ヒラギノ明朝 ProN";
+  text-align: left;
+  letter-spacing: .10em;
+  line-height: 3;
+}
+
+
+/* プロダクト */
+.product{
+  margin-top: 15%;
+}
+.tekki_box{
+  display: flex;
+}
+.photo{
+  margin: 0;
+  width: 50%;
+}
+.photo img{
+  width: 100%;
+  height: 100%;
+}
+.text{
+  text-align: center;
+  background: #bababa;
+  background-image: url(img/icon.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  width: 50%;
+  
+}
+.text p{
+  font-family: "ヒラギノ明朝 ProN";
+  font-size: 15px;
+  color: white;
+  line-height: 4;
+  letter-spacing: .20em;
+}
+.text h2{
+  display: inline-block;
+  width: 60px;
+  margin-top: 30%;
+  font-family: "ヒラギノ明朝 ProN";
+  text-align: center;
+  color: white;
+  letter-spacing: .1em;
+  border-bottom: solid 4px #fff
+}
+.text img{
+  width: 50%;
+  margin-top: -50%;
+  opacity: 0.5;
+}
+
+
+
+/* ロケーション */
+.clearfix::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+#location{
+  display: flex;
+  padding-left: 20%;
+}
+.location_text{
+  text-align: center;
+  color: #353535;
+  font-family: "ヒラギノ明朝 ProN";
+  margin-top: 20%;
+}
+.heading{
+  display: inline-block;
+  font-size: 33px;
+  letter-spacing: .10em;
+  border-bottom: solid 4px #353535
+}
+.address{
+  margin-top: 20%;
+  letter-spacing: .20em;
+  line-height: 2.5;
+  font-size: 13px;
+}
+.map_text{
+  margin-top: 10%;
+}
+.map_text a{
+  text-decoration: none;
+}
+.map{
+  position: relative;
+  margin-top: 20%;
+  padding-left: 10%;
+}
+.map iframe{
+  height: 100%;
+}
+
+/* コンタクト */
+.contact{
+  margin-top: 20%;
+  text-align: center;
+  color: #353535;
+  font-family: "ヒラギノ明朝 ProN";
+}
+.heading2{
+  display: inline-block;
+  width: 185px;
+  font-size: 33px;
+  letter-spacing: .10em;
+  border-bottom: solid 4px #353535
+}
+.text2{
+  margin-top: 2%;
+  letter-spacing: .20em;
+  line-height: 2.5;
+  font-size: 12px;
+}
+.address2{
+  margin-top: 5%;
+  letter-spacing: .20em;
+  line-height: 2.5;
+  font-size: 30px;
+}
+.address2 a{
+  text-decoration: none;
+}
+
+/* リンク */
+.link_online2{
+  margin-top: 10%;
+  color: #353535;
+  font-size: 15px;
+  text-align: center;
+  font-family: "ヒラギノ明朝 ProN";
+  letter-spacing: .05em;
+}
+.link_online2 a{
+  text-decoration: none;
+}
+
+.social_icons{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social_icons a{
+    color: #353535;
+    padding: 2%;
+}
+
+/* フッター */
+footer{
+  text-align: center;
+  color: #353535;
+  font-family: "ヒラギノ明朝 ProN";
+  font-size: 10px;
+  margin: 2%;
+}
+
+/* 縮小時レイアウト */
+@media screen and (max-width:960px){
+  #about , #wrap , .tekki_box{
+    display: initial;
+  }
+  .scroll {display:none}
+  .arrow {display:none}
+  .title , .content , #side_box , .top_image , .photo, .text{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  /* ヘッダー */
+  h1 img{
+    width: 20%;
+  }
+  .link_online{
+    margin-top: 5%;
+  }
+  .side_address{
+    margin-top: 5%;
+  }
+  .top_image p{
+    font-size: 20px;
+  }
+   /* メニュー */
+  li a{
+    padding: 30px 25px;
+  }
+  /* アバウト */
+  .title{
+    margin-top: 20%;
+    text-align: center;
+  }
+  .title img{
+    width: 30%;
+  }
+  .content{
+    width: 100%;
+  }
+  .content p{
+    margin-top: 15%;
+    text-align: center;
+    color: #353535;
+    font-size: 15px;
+    font-weight: bold;
+  }
+ 
+  /* プロダクト */
+  .tekki_box{
+    display: flex;
+  }
+  .photo{
+    margin: 0;
+    width: 50%;
+  }
+  .photo img{
+    width: 100%;
+    height: 100%;
+  }
+  .text{
+    text-align: center;
+    background: #bababa;
+    background-image: url(img/icon.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    
+  }
+  .text p{
+    margin: 0;
+    font-size: 15px;
+    line-height: 3;
+    letter-spacing: .10em;
+  }
+  .text h2{
+    font-size: 20px;
+    margin-top: 20%;
+  }
+/* ロケーション */
+
+.location_text{
+  margin-top: 10%;
+  font-size: 12px;
+}
+.heading{
+  display: inline-block;
+  margin-top: 15%;
+  font-size: 20px;
+}
+.map_text{
+  margin-top: 5%;
+}
+.map{
+  position: relative;
+  margin-top: 13%;
+}
+.map iframe{
+  width: 100%;
+  height: 100%;
+}
+.address{
+  font-size: 12px;
+  margin-top: 5%;
+}
+.address2{
+  letter-spacing: .20em;
+  line-height: 2.5;
+  font-size: 20px;
+} 
+}
+
+@media screen and (max-width:768px){
+  #about , #wrap , .tekki_box{
+    display: initial;
+  }
+
+  .scroll {display:none}
+  .arrow {display:none}
+  .title , .content , #side_box , .top_image , .photo, .text{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  /* ヘッダー */
+  .navi_top li{
+    font-size: 12px;
+  }
+  .side_address{
+    margin-top: 10%;
+  }
+  .top_image p{
+    font-size: 15px;
+  }
+  .side_address{
+    display: none;
+  }
+  .online_box{
+    letter-spacing: .15em;
+    width: 40%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding: 0.7em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: #5b5b5b;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+  }
+  /* メニュー */
+  li a{
+    padding: 20px 10px;
+  }
+  .list a{
+    font-size: 10px;
+  }
+  /* アバウト */
+  .title{
+    margin-top: 20%;
+  }
+  .title p{
+    font-size: 20px;
+    line-height: 2;
+  }
+  .title img{
+    width: 30%;
+  }
+  .content{
+    width: 100%;
+  }
+  .content p{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  /* プロダクト */
+  .tekki_box{
+    display: flex;
+  }
+  .photo{
+    margin: 0;
+    width: 50%;
+  }
+  .photo img{
+    width: 100%;
+    height: 100%;
+  }
+  .text{
+    text-align: center;
+    background: #bababa;
+    background-image: url(img/icon.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+  }
+  .text p{
+    margin: 0;
+    font-size: 10px;
+    line-height: 2.5;
+    letter-spacing: .0em;
+  }
+  .text h2{
+    width: 20%;
+    font-size: 15px;
+    margin-top: 20%;
+  }
+/* ロケーション */
+#location{
+  padding: 0;
+}
+.location_text{
+  width: 100%;
+  padding: 0;
+  padding-left: 10%;
+}
+.heading{
+  font-size: 33px;
+  letter-spacing: .10em;
+}
+.map iframe{
+  display: none;
+}
+.address2{
+  letter-spacing: .20em;
+  line-height: 2.5;
+  font-size: 20px;
+} 
+/* コンタクト */
+.text2{
+  margin-top: 5%;
+  letter-spacing: .20em;
+  line-height: 2.5;
+  font-size: 10px;
+}
+.address2{
+  margin-top: 5%;
+  letter-spacing: .20em;
+  line-height: 2.5;
+  font-size: 15px;
+}
+}
